@@ -1,0 +1,48 @@
+
+
+// Remove Ligatures
+html {
+  font-variant-ligatures: none;
+}
+
+
+// Font families
+
+@import url('https://fonts.googleapis.com/css?family=Barlow:300,400|Playfair+Display:400,400i,700');
+
+$headerFont: 'Playfair Display', serif;
+$bodyFont: 'Barlow', sans-serif;
+
+$bodyLineheight: 1.4;
+$headerLineheight: 1;
+$headerBottompadding:.15em;
+
+// h6 starts at $base-font-size
+// headings grow from h6 to h1 by $heading-scale
+$base-font-size: 16px;
+$heading-scale: 6; // amount of px headings grow from h6 to h1
+
+@for $i from 1 through 1 {
+  h#{$i} {
+    font-size: $base-font-size + $heading-scale * (17- $i);
+    font-family: $headerFont;
+    line-height:$headerLineheight;
+    padding-bottom:$headerBottompadding;
+  }
+}
+
+@for $i from 2 through 3 {
+  h#{$i} {
+    font-size: $base-font-size + $heading-scale * (7- $i);
+    font-family: $headerFont;
+    line-height:$headerLineheight;
+    padding-bottom:$headerBottompadding;
+  }
+}
+
+p, div#et-top-navigation, ul, ol {  font-family: $bodyFont;
+line-height:$bodyLineheight;}
+
+
+
+.supplemental-callout-subhead {text-transform:uppercase;}

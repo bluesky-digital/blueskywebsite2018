@@ -1,0 +1,195 @@
+/*
+Theme Name: BlueSky 2018
+Theme URI:
+Description: BlueSky's latest design
+Author: Mike Malott
+Author URI:
+Template: Divi
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Barlow:300,400|Playfair+Display:400,400i,700");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-variant-ligatures: none; }
+
+h1 {
+  font-size: 112px;
+  font-family: "Playfair Display", serif;
+  line-height: 1;
+  padding-bottom: 0.15em; }
+
+h2 {
+  font-size: 46px;
+  font-family: "Playfair Display", serif;
+  line-height: 1;
+  padding-bottom: 0.15em; }
+
+h3 {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  line-height: 1;
+  padding-bottom: 0.15em; }
+
+p, div#et-top-navigation, ul, ol {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.4; }
+
+.supplemental-callout-subhead {
+  text-transform: uppercase; }
+
+.midnightHeader.default {
+  background: none;
+  color: black; }
+
+.midnightHeader.white {
+  background: white;
+  color: black; }
+
+.midnightHeader.blue {
+  background: blue;
+  color: white; }
+
+#linear-timeline:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 2%;
+  width: 4em;
+  background-color: #33e1ff;
+  overflow: hidden; }
+
+#linear-timeline:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 2%;
+  width: 4em;
+  background-color: #33e1ff;
+  overflow: hidden; }
+
+#home-hero {
+  padding-top: 20% !important;
+  height: 100vh;
+  overflow: hidden; }
+  #home-hero h1:before {
+    content: "";
+    background-image: url("/wp-content/uploads/2018/08/dots.svg");
+    height: 157px;
+    width: 177em;
+    position: absolute;
+    left: -13em;
+    bottom: -1.55em;
+    background-repeat: repeat-x;
+    overflow: hidden; }
+  #home-hero h1:after {
+    content: "";
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1rem; }
+  #home-hero p {
+    font-size: 1.875em; }
+  #home-hero:before {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.1);
+    background-position: center left;
+    height: 100%;
+    width: 75%;
+    position: absolute;
+    top: 0;
+    right: -40rem;
+    transform: skewX(-30deg);
+    z-index: 0; }
+  #home-hero:after {
+    content: "";
+    background-image: url("/wp-content/uploads/2018/08/heroB.svg");
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 100%;
+    width: 75%;
+    position: absolute;
+    top: 0;
+    right: -45.75rem;
+    z-index: 0; }
+
+.dots:before {
+  content: "";
+  background-image: url(/wp-content/uploads/2018/08/dots.svg);
+  height: 158px;
+  width: 3.65em;
+  position: absolute;
+  left: -3.75em;
+  bottom: 0;
+  background-repeat: repeat;
+  overflow: hidden; }
+
+#services {
+  overflow: hidden; }
+
+.service_left:before {
+  content: "";
+  background-image: url("/wp-content/uploads/2018/08/33e1ff-circle.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  left: -90px;
+  top: 0;
+  height: 90px;
+  width: 90px;
+  z-index: -10;
+  overflow: hidden; }
+
+.service_right:before {
+  content: "";
+  background-image: url("/wp-content/uploads/2018/08/33e1ff-circle.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  right: -90px;
+  top: 0;
+  height: 90px;
+  width: 90px;
+  z-index: -10;
+  overflow: hidden; }
