@@ -9354,6 +9354,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/app\/public\/wp-content\/themes\/bs2018\/scss\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/themes\/bs2018\/scss\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/app\/public\/wp-content\/themes\/bs2018\/scss\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -15811,11 +15821,21 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/app\/public\/wp-content\/uploads\/2018\/08\/dots.svg": {
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/dotsGrey.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/dots.svg",
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/dotsGrey.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/dotsWhite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/dotsWhite.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

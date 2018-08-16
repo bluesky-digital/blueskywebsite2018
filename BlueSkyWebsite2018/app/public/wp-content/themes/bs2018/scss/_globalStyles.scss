@@ -25,47 +25,57 @@ $primaryRed: #ff3366;
 }
 //timeline styling
 #linear-timeline {
+  background-position: top center;
+  background-image: url('/wp-content/uploads/2018/08/linear-timeline.svg');
+background-size: auto 140px;
+padding:0 32vw 110px 32vw;
+z-index:10;
   &:before {
     content: "";
     position: absolute;
-    left: 0;
-    top: 50%;
-    height: 2%;
-    width: 4em;
+    left:  -2vw;
+    top: 50px;
+    height: 3px;
+    width: 4vw;
     background-color: #33e1ff;
     overflow: hidden;
-  }
+    z-index: 0;
+}
 
   &:after {
     content: "";
     position: absolute;
-    right: 0;
-    top: 50%;
-    height: 2%;
-    width: 4em;
+    right:  -2vw;
+    top: 50px;
+    height: 3px;
+    width: 4vw;
     background-color: #33e1ff;
     overflow: hidden;
-  }
+    z-index: 0;
+}
 }
 
 //heroes with specific font sizes just for heroes. All other font controls can be found in _fonts.scss
 
 #home-hero {
-  padding-top:20% !important;
+  padding-top:25% !important;
   height:100vh;
   overflow:hidden;
   & h1:before {
     content: "";
-  background-image: url('/wp-content/uploads/2018/08/dots.svg');
-  height: 157px;
+  background-image: url('/wp-content/uploads/2018/08/dotsWhite.svg');
+  background-size: auto 125px;
+  height: 130px;
   width: 177em;
   position: absolute;
   left: -13em;
-  bottom: -1.55em;
+  bottom: -1.1em;
   background-repeat: repeat-x;
   overflow: hidden;
+  z-index:0;
+  opacity:.06;
 }
-  & h1:after {content:""; background-color:#fff;height:2px; width:100%;position:absolute;left:0;bottom:-1rem;}
+  & h1:after {content:""; background-color:#fff;height:2px; width:75%;position:absolute;left:0;bottom:-1rem;}
 & p {font-size:1.875em;}
   &:before {
     content: "";
@@ -90,20 +100,23 @@ position: absolute;
 top: 0;
 right: -45.75rem;
 z-index: 0;
+background-size: 32% auto;
   }
 }
 //dots
 .dots {
   &:before {
     content: "";
-  background-image: url(/wp-content/uploads/2018/08/dots.svg);
-  height: 158px;
+  background-image: url('/wp-content/uploads/2018/08/dotsGrey.svg');
+  background-size: auto 125px;
+  height: 130px;
   width: 3.65em;
   position: absolute;
   left: -3.75em;
   bottom: 0;
-  background-repeat:repeat;
-  overflow: hidden;}
+  background-repeat:repeat-x;
+  overflow: hidden;
+  opacity:.06;}
 }
 //services section
 #services {overflow:hidden;}
