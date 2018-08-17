@@ -9277,6 +9277,13 @@
 		"oAP": "\/app\/public\/wp-content\/plugins\/worth-the-read\/wtr-config.php",
 		"oF": 0
 		},
+	"\/app\/public\/wp-content\/themes\/bs2018\/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/themes\/bs2018\/footer.php",
+		"oF": 0
+		},
 	"\/app\/public\/wp-content\/themes\/bs2018\/functions.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -9328,6 +9335,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/app\/public\/wp-content\/themes\/bs2018\/scss\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/public\/wp-content\/themes\/bs2018\/scss\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/app\/public\/wp-content\/themes\/bs2018\/scss\/_globalStyles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -9337,6 +9357,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/app\/public\/wp-content\/themes\/bs2018\/scss\/_globalStyles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/public\/wp-content\/themes\/bs2018\/scss\/_heroes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/public\/wp-content\/themes\/bs2018\/scss\/_heroes.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -9353,16 +9386,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/app\/public\/wp-content\/themes\/bs2018\/scss\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/app\/public\/wp-content\/themes\/bs2018\/scss\/style-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/app\/public\/wp-content\/themes\/bs2018\/scss\/style.scss": {
 		"aP": 0,
@@ -15427,6 +15450,127 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-1024x353.jpg": {
+		"ft": 16384,
+		"iS": 46368,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-1024x353.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-1080x372.jpg": {
+		"ft": 16384,
+		"iS": 50176,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-1080x372.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-1080x675.jpg": {
+		"ft": 16384,
+		"iS": 71978,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-1080x675.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-150x150.jpg": {
+		"ft": 16384,
+		"iS": 4850,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-300x103.jpg": {
+		"ft": 16384,
+		"iS": 7529,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-300x103.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-400x250.jpg": {
+		"ft": 16384,
+		"iS": 16405,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-400x250.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-400x284.jpg": {
+		"ft": 16384,
+		"iS": 17001,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-400x284.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-400x516.jpg": {
+		"ft": 16384,
+		"iS": 25326,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-400x516.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-510x382.jpg": {
+		"ft": 16384,
+		"iS": 25262,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-510x382.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-768x265.jpg": {
+		"ft": 16384,
+		"iS": 30301,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x-768x265.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x.jpg": {
+		"ft": 16384,
+		"iS": 88741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Business-plan-explained-on-flipchart@3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/app\/public\/wp-content\/uploads\/2018\/08\/canadian_blood_services-image@3x-1024x77.jpg": {
 		"ft": 16384,
 		"iS": 13539,
@@ -15846,6 +15990,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/expertsincommerce18.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/footerB.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/footerB.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/footerLogotagline.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/footerLogotagline.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -24185,6 +24349,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/app\/sql\/local.wp_users.sql",
+		"oF": 0
+		},
+	"\/app\/sql\/metadata": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/sql\/metadata",
 		"oF": 0
 		},
 	"\/logs": {
