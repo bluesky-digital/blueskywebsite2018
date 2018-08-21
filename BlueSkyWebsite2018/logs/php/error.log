@@ -1,6 +1,0 @@
-[17-Aug-2018 00:14:49 UTC] PHP Warning:  Illegal string offset 'width' in /app/public/wp-includes/media.php on line 988
-[17-Aug-2018 00:14:49 UTC] PHP Warning:  Illegal string offset 'height' in /app/public/wp-includes/media.php on line 989
-[17-Aug-2018 00:14:50 UTC] PHP Warning:  Illegal string offset 'width' in /app/public/wp-includes/media.php on line 988
-[17-Aug-2018 00:14:50 UTC] PHP Warning:  Illegal string offset 'height' in /app/public/wp-includes/media.php on line 989
-[17-Aug-2018 00:14:50 UTC] PHP Warning:  Illegal string offset 'width' in /app/public/wp-includes/media.php on line 988
-[17-Aug-2018 00:14:50 UTC] PHP Warning:  Illegal string offset 'height' in /app/public/wp-includes/media.php on line 989
