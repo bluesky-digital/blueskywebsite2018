@@ -37,17 +37,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 
 			<?php endif; ?>
 
-				<div id="footer-bottom">
-					<div class="container clearfix">
-				<?php
-					if ( false !== et_get_option( 'show_footer_social_icons', true ) ) {
-						get_template_part( 'includes/social_icons', 'footer' );
-					}
-
-				
-				?>
-					</div>	<!-- .container -->
-				</div>
+			
 			</footer> <!-- #main-footer -->
 		</div> <!-- #et-main-area -->
 

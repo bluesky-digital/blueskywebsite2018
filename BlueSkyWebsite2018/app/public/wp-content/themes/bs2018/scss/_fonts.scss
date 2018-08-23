@@ -13,6 +13,7 @@ html {
 $headerFont: 'Playfair Display', serif;
 $bodyFont: 'Barlow', sans-serif;
 
+//font weights
 $bodyLineheight: 1.4;
 $headerLineheight: 1;
 $headerBottompadding:.15em;
@@ -41,7 +42,7 @@ $heading-scale: 6; // amount of px headings grow from h6 to h1
   }
 }
 
-@for $i from 4 through 4 {
+@for $i from 4 through 6 {
   h#{$i} {
     font-size: $base-font-size + $heading-scale * (6- $i) !important;
     font-family: $bodyFont;

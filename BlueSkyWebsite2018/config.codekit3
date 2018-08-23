@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/app\/public\/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -5569,6 +5576,27 @@
 		"oAP": "\/app\/public\/wp-content\/plugins\/safe-svg\/safe-svg.php",
 		"oF": 0
 		},
+	"\/app\/public\/wp-content\/plugins\/wordpress-importer\/parsers.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/plugins\/wordpress-importer\/parsers.php",
+		"oF": 0
+		},
+	"\/app\/public\/wp-content\/plugins\/wordpress-importer\/readme.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/plugins\/wordpress-importer\/readme.txt",
+		"oF": 0
+		},
+	"\/app\/public\/wp-content\/plugins\/wordpress-importer\/wordpress-importer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/plugins\/wordpress-importer\/wordpress-importer.php",
+		"oF": 0
+		},
 	"\/app\/public\/wp-content\/plugins\/worth-the-read\/css\/wtr.css": {
 		"aP": 1,
 		"bl": 0,
@@ -9291,6 +9319,13 @@
 		"oAP": "\/app\/public\/wp-content\/themes\/bs2018\/functions.php",
 		"oF": 0
 		},
+	"\/app\/public\/wp-content\/themes\/bs2018\/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/themes\/bs2018\/header.php",
+		"oF": 0
+		},
 	"\/app\/public\/wp-content\/themes\/bs2018\/js\/midnight.jquery.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -9383,6 +9418,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/app\/public\/wp-content\/themes\/bs2018\/scss\/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/public\/wp-content\/themes\/bs2018\/scss\/forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/public\/wp-content\/themes\/bs2018\/scss\/forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -15824,6 +15872,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Contract-Icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Contract-Icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Contract-to-hire-Icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Contract-to-hire-Icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/app\/public\/wp-content\/uploads\/2018\/08\/cropped-bluesky-favicon-blue-150x150.png": {
 		"ft": 32768,
 		"iS": 2836,
@@ -15965,6 +16033,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/Direct-placement-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/Direct-placement-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/app\/public\/wp-content\/uploads\/2018\/08\/dotsGrey.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -16014,6 +16092,138 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-1024x307.jpg": {
+		"ft": 16384,
+		"iS": 23406,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-1024x307.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-1080x324.jpg": {
+		"ft": 16384,
+		"iS": 25459,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-1080x324.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-1080x675.jpg": {
+		"ft": 16384,
+		"iS": 34427,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-1080x675.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-150x150.jpg": {
+		"ft": 16384,
+		"iS": 2179,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-2880x1294.jpg": {
+		"ft": 16384,
+		"iS": 129056,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-2880x1294.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-300x90.jpg": {
+		"ft": 16384,
+		"iS": 3816,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-300x90.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-400x250.jpg": {
+		"ft": 16384,
+		"iS": 7771,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-400x250.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-400x284.jpg": {
+		"ft": 16384,
+		"iS": 7985,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-400x284.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-400x516.jpg": {
+		"ft": 16384,
+		"iS": 7772,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-400x516.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-510x382.jpg": {
+		"ft": 16384,
+		"iS": 11712,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-510x382.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-768x230.jpg": {
+		"ft": 16384,
+		"iS": 14954,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x-768x230.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x.jpg": {
+		"ft": 16384,
+		"iS": 302176,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/girl-on-mobile@3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/app\/public\/wp-content\/uploads\/2018\/08\/heroB.svg": {
 		"ft": 2097152,
@@ -16156,6 +16366,148 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/locations-graphic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/locations-graphic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-1024x485.jpg": {
+		"ft": 16384,
+		"iS": 80971,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-1024x485.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-1080x512.jpg": {
+		"ft": 16384,
+		"iS": 87783,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-1080x512.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-1080x675.jpg": {
+		"ft": 16384,
+		"iS": 108857,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-1080x675.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-150x150.jpg": {
+		"ft": 16384,
+		"iS": 7048,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-300x142.jpg": {
+		"ft": 16384,
+		"iS": 11479,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-300x142.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-400x250.jpg": {
+		"ft": 16384,
+		"iS": 22378,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-400x250.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-400x284.jpg": {
+		"ft": 16384,
+		"iS": 24158,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-400x284.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-400x516.jpg": {
+		"ft": 16384,
+		"iS": 41289,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-400x516.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-510x382.jpg": {
+		"ft": 16384,
+		"iS": 37161,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-510x382.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-768x364.jpg": {
+		"ft": 16384,
+		"iS": 51353,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x-768x364.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x.jpg": {
+		"ft": 16384,
+		"iS": 125477,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/man-at-desk-on-phone@3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/mike.malott@blueskytp.com_BPMark_web_base.png": {
+		"ft": 32768,
+		"iS": 5044,
+		"oA": 0,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/mike.malott@blueskytp.com_BPMark_web_base.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/app\/public\/wp-content\/uploads\/2018\/08\/performance_bike_case_study_bg@3x-1024x683.jpg": {
 		"ft": 16384,
 		"iS": 200523,
@@ -16276,6 +16628,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/staffing-head-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/staffing-head-bg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/staffing-matrix.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/staffing-matrix.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/app\/public\/wp-content\/uploads\/2018\/08\/teatula-about-bg-1024x522.jpg": {
 		"ft": 16384,
@@ -17250,6 +17622,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/technology-matrix.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/public\/wp-content\/uploads\/2018\/08\/technology-timeline.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/public\/wp-content\/uploads\/2018\/08\/technology-timeline.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -24209,6 +24591,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/app\/sql\/local.wp_commentmeta-schema.sql",
+		"oF": 0
+		},
+	"\/app\/sql\/local.wp_commentmeta.sql": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/sql\/local.wp_commentmeta.sql",
 		"oF": 0
 		},
 	"\/app\/sql\/local.wp_comments-schema.sql": {

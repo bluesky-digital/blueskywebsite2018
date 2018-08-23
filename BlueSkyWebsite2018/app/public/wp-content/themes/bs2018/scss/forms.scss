@@ -1,0 +1,109 @@
+//form RESETS
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, .8);
+  font-family: $bodyFont;
+  font-weight: 100;
+  text-transform: capitalize !important;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(255, 255, 255, .8);
+  font-family: $bodyFont;
+  font-weight: 100;
+  text-transform: capitalize !important;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(255, 255, 255, .8);
+  font-family: $bodyFont;
+  font-weight: 100;
+  text-transform: capitalize !important;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(255, 255, 255, .8);
+  font-family: $bodyFont;
+  font-weight: 100;
+  text-transform: capitalize !important;
+}
+
+.form-dark::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255,255,255,.8) !important;
+  font-style: italic !important;
+}
+.form-dark::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255,255,255,.8) !important;
+  font-style: italic !important;
+}
+.form-dark:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255,255,255,.8) !important;
+  font-style: italic !important;
+}
+.form-dark:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255,255,255,.8) !important;
+  font-style: italic !important;
+}
+
+textarea {
+  background-color: rgba(0, 0, 0, .1) !important;
+  width: 0;
+  -webkit-appearance: none !important;
+  border-radius: 0 !important;
+  height:.25vh !important;
+}
+
+input[type=text]:focus, textarea:focus {
+  border-bottom: 1px solid $secondaryPurple !important;
+}
+
+.form, .form-dark,  {
+  font-family:$bodyFont;
+}
+input[type=text].form-dark, input[type=password].form-dark, input[type=tel].form-dark, input[type=email].form-dark, input[type=checkbox].form-dark, .textInput, input.text, input.title, textarea, select {
+    padding: 2vh 0vw 2vh 0;
+    border: none !important;
+    font-size: 18px;
+    font-family: "Qanelas-light", Helvetica, Arial, sans-serif;
+    background-color: transparent !important;
+    border-bottom: 1px solid rgba(255,255,255,.5) !important;
+    transition: ease-in-out .5s;
+    margin: 1vh 1vw 1vh 0 !important;
+}
+
+input[type=submit] {
+  background:transparent !important;
+  color:$white !important;
+  border:none !important;
+  font-family:$bodyFont !important;
+  font-size:$bodyFontsize !important;
+  font-weight:700 !important;
+  padding:0 !important;
+}
+//self-explanatory design changes
+.form-field-50pc-left {
+  width: 47.3%;
+  margin: 1.2vw 1.2vw 1.2vw 0;
+}
+
+.form-field-50pc-right {
+  width: 47.3%;
+  margin: 1.2vw 0 1.2vw 1.2vw;
+}
+
+.form-field-100pc {
+  width: 94.6%;
+  margin: 1.2vw 0 1.2vw 0;
+  padding-bottom:0;
+  height:auto;
+}
+
+.form-field-100pc.textarea {
+  max-width: 94.6% !important;
+  margin:1.2vw 0 1.2vw 0;
+  padding-bottom:0;
+  height:auto;
+}
