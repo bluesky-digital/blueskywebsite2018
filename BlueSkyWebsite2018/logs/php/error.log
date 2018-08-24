@@ -4,3 +4,20 @@
 [17-Aug-2018 00:14:50 UTC] PHP Warning:  Illegal string offset 'height' in /app/public/wp-includes/media.php on line 989
 [17-Aug-2018 00:14:50 UTC] PHP Warning:  Illegal string offset 'width' in /app/public/wp-includes/media.php on line 988
 [17-Aug-2018 00:14:50 UTC] PHP Warning:  Illegal string offset 'height' in /app/public/wp-includes/media.php on line 989
+[24-Aug-2018 00:11:54 UTC] PHP Warning:  Parameter 2 to WPE\Site_Preview::the_posts() expected to be a reference, value given in /app/public/wp-includes/class-wp-hook.php on line 286
+[24-Aug-2018 00:11:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/mu-plugins/wpengine-common/plugin.php on line 1020
+[24-Aug-2018 00:12:01 UTC] PHP Warning:  Parameter 2 to WPE\Site_Preview::the_posts() expected to be a reference, value given in /app/public/wp-includes/class-wp-hook.php on line 286
+[24-Aug-2018 00:12:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/mu-plugins/wpengine-common/plugin.php on line 1020
+[24-Aug-2018 00:12:10 UTC] PHP Warning:  Parameter 2 to WPE\Site_Preview::the_posts() expected to be a reference, value given in /app/public/wp-includes/class-wp-hook.php on line 286
+[24-Aug-2018 00:12:11 UTC] PHP Warning:  Parameter 2 to WPE\Site_Preview::the_posts() expected to be a reference, value given in /app/public/wp-includes/class-wp-hook.php on line 286
+[24-Aug-2018 00:12:11 UTC] PHP Warning:  Parameter 2 to WPE\Site_Preview::the_posts() expected to be a reference, value given in /app/public/wp-includes/class-wp-hook.php on line 286
+[24-Aug-2018 00:12:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/mu-plugins/wpengine-common/plugin.php on line 1020
+[24-Aug-2018 00:30:56 UTC] PHP Warning:  Parameter 2 to WPE\Site_Preview::the_posts() expected to be a reference, value given in /app/public/wp-includes/class-wp-hook.php on line 286
+[24-Aug-2018 00:30:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/mu-plugins/wpengine-common/plugin.php on line 1020
+[24-Aug-2018 00:42:38 UTC] PHP Warning:  Parameter 2 to WPE\Site_Preview::the_posts() expected to be a reference, value given in /app/public/wp-includes/class-wp-hook.php on line 286
+[24-Aug-2018 00:42:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/mu-plugins/wpengine-common/plugin.php on line 1020
+[24-Aug-2018 00:42:41 UTC] PHP Warning:  Parameter 2 to WPE\Site_Preview::the_posts() expected to be a reference, value given in /app/public/wp-includes/class-wp-hook.php on line 286
+[24-Aug-2018 00:42:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/mu-plugins/wpengine-common/plugin.php on line 1020
+[24-Aug-2018 00:43:17 UTC] PHP Warning:  Parameter 2 to WPE\Site_Preview::the_posts() expected to be a reference, value given in /app/public/wp-includes/class-wp-hook.php on line 286
+[24-Aug-2018 00:43:17 UTC] PHP Warning:  Parameter 2 to WPE\Site_Preview::the_posts() expected to be a reference, value given in /app/public/wp-includes/class-wp-hook.php on line 286
+[24-Aug-2018 00:43:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/mu-plugins/wpengine-common/plugin.php on line 1020

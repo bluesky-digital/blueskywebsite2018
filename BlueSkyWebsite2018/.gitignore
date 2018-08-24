@@ -8,7 +8,7 @@ Thumbs.db
 
 # wordpress specific
 wp-config.php
-wp-content/uploads/
+wp-content/uploads/*
 wp-content/blogs.dir/
 wp-content/upgrade/*
 wp-content/backup-db/*
@@ -70,7 +70,7 @@ wp-content/mysql.sql
 /wp-content/themes/index.php
 /wp-content/plugins/index.php
 /wp-content/plugins/akismet*
-
+/wp-conten
 # large/disallowed file types
 # a CDN should be used for these
 *.hqx
