@@ -857,7 +857,7 @@ textarea {
   height: .25vh !important; }
 
 input[type=text]:focus, textarea:focus {
-  border-bottom: 1px solid #8a479b !important; }
+  border-bottom: 1px solid green !important; }
 
 .form, .form-dark {
   font-family: "Barlow", sans-serif; }
