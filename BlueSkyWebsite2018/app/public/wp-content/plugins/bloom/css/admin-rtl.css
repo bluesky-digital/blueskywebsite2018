@@ -1,0 +1,43 @@
+/* General dashboard adjustments */
+.rtl #et_dashboard_content.current_tab_et_dashboard_tab_content_optin_setup, .rtl #et_dashboard_content.current_tab_et_dashboard_tab_content_optin_design, .rtl #et_dashboard_content.current_tab_et_dashboard_tab_content_optin_premade, .rtl #et_dashboard_content.current_tab_et_dashboard_tab_content_optin_display { margin-left: 0; margin-right: 200px; }
+.rtl .current_tab_et_dashboard_tab_content_header_home { margin-right: 0 !important;}
+.rtl .et_dashboard_table_column { float: right; }
+.rtl .et_dashboard_table_column:first-child { text-align: right; }
+.rtl .et_dashboard_table_name:before { float: right; margin-left: 10px; }
+.rtl .et_dashboard_new_optin h1, .rtl .et_dashboard_tab_content_header_accounts .et_dashboard_new_account_row h1, .rtl .et_dashboard_stats_row h1, .rtl.et_bloom .et_dashboard_row h2, .rtl #et_dashboard_logo, .rtl a.et_dashboard_add_var_button, .rtl .et_dashboard_optin_select h3 { float: right; }
+.rtl .et_dashboard_row.et_dashboard_new_optin button, .rtl .et_dashboard_row.et_dashboard_new_account_row button, .rtl .et_bloom_stats_controls, .rtl #et_dashboard_header ul, .rtl .child_buttons_right { float: left; }
+.rtl .et_bloom_shortcode_message .et_disabled_textarea { direction: ltr; }
+.rtl .et_dashboard_optin_select .et_dashboard_close_button { right: auto; left: 18px; }
+.rtl #et_dashboard_navigation li a.current:after { -webkit-animation: arrow-left .7s; animation: arrow-left .7s; right: auto; left: -14px; }
+.rtl #et_dashboard_navigation .et_dashboard_icon:before { float: right; margin-left: 15px; }
+.rtl #et_dashboard_navigation li a:hover { padding-left: 0; padding-right: 30px; }
+
+/* General Form adjustments */
+.rtl .et_dashboard_form li p, .rtl .et_dashboard_account_row label { float: right; width: 300px; }
+.rtl .et_dashboard_form ul { text-align: right; }
+.rtl.et_bloom .et_dashboard_form select, .rtl.et_bloom .et_dashboard_longinput input, .rtl .et_dashboard_account_row input, .rtl .et_dashboard_checkbox label, .rtl .et_dashboard_form span.et_dashboard_more_info, .rtl input.button.button-upload.et-dashboard-upload-button, .rtl .et_dashboard_design_title { float: right; }
+.rtl.et_bloom p.et_dashboard_section_subtitle { margin-left: 0; margin-right: 5px; float: right; }
+.rtl .et_dashboard_multi_selectable, .rtl .et_dashboard_single_selectable { float: right; margin-right: 0 !important; margin-left: 40px; }
+.rtl input.et-dashboard-upload-field { float: right; margin-right: 0 !important; margin-left: 10px; }
+.rtl .et_dashboard_row.et_dashboard_preview { float: left; }
+
+/* Account form specific adjustments */
+.rtl .et_dashboard_accounts_title span { background-position: top right; }
+.rtl .et_dashboard_aweber_row input { float: left; }
+
+/* Save and Next buttons */
+.rtl .et_dashboard_row.et_dashboard_next_design, .rtl .et_dashboard_row.et_dashboard_next_display, .rtl .et_dashboard_row.et_dashboard_next_customize, .rtl .et_dashboard_next_shortcode { float: left; }
+.rtl .et_dashboard_row.et_dashboard_save_changes.et_dashboard_custom_save { float: right; }
+
+/* Stats Tab adjustments */
+.rtl span.et_bloom_stats_spinner { right: 185px !important; }
+.rtl .et_bloom_graph_header h3, .rtl span.signups_period, .rtl span.total_signups { float: right; }
+.rtl .et_bloom_graph_controls { float: left; }
+.rtl a.et_bloom_graph_button { margin: 0 0 30px 25px; }
+.rtl ul.et_bloom_graph li { float: right; margin-right: 0; margin-left: .5%; }
+
+/* Import/Export Tab adjustments */
+.rtl .et_dashboard_import_form form p, .rtl .et_dashboard_tab_content_header_importexport p.et_dashboard_section_subtitle { clear: both; }
+
+@-webkit-keyframes arrow-left { 0% {left: -28px;} 100% {left: -14px;} }
+@keyframes arrow-left { 0% {left: -28px;} 100% {left: -14px;} }

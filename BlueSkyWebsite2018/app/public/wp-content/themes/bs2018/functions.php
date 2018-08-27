@@ -11,4 +11,17 @@ function mycustomscript_enqueue() {
 add_action( 'wp_enqueue_scripts', 'mycustomscript_enqueue' );
 
 
+function wph_assets_scripts() {
+// Google jQuery
+wp_deregister_script('jquery');
+wp_register_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', false, '1.12.4');
+wp_enqueue_script('jquery');
+
+if ( is_page('blog') ) { // CHANGE PAGE SLUG OR REMOVE CONDITIONAL STATEMENT
+wp_enqueue_script('mixitup_js', 'mixitup.min.js', true, '2.1.11'); // ENTER PATH TO FILE ON YOUR SERVER
+}
+}
+add_action( 'wp_enqueue_scripts', 'wph_assets_scripts', 15);
+
+
 ?>

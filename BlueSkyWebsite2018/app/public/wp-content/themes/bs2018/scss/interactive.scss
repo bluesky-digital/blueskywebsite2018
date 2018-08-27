@@ -1,0 +1,78 @@
+/* Animated Call To Action at bottom of page */
+
+/*** style CTA section and row when waypoint is not triggered ***/
+#cta-section {
+    padding: 0 80px;
+    transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+}
+#cta-row {
+    margin: 00px auto 0 auto;
+    padding: 80px 0;
+    max-width: 100%;
+    background-color: #6c17dc;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 50px #939fa9;
+    transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+
+}
+/*** Style CTA section and row once waypoint toggles animate-cta class ***/
+#cta-section.animate-cta {
+    padding: 0vh 0 6vh 0;
+    overflow: hidden;
+}
+.animate-cta #cta-row {
+    margin: 0 auto 0 auto;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #4843d2;
+    width: inherit;
+}
+/*** style button ***/
+
+#sign {
+    display: inline-block;
+    width: 246px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #f92c8b;
+    padding: 20px 40px;
+    margin-top: 30px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    box-shadow: 0px 5px 20px #231f92;
+    -moz-box-shadow: 0px 5px 20px #231f92;
+    -webkit-box-shadow: 0px 10px 50px #231f92;
+}
+#sign:hover {
+    background-color: #2cc2e6;
+    box-shadow: 0px 20px 80px #1b1867;
+    -moz-box-shadow: 0px 20px 80px #1b1867;
+    -webkit-box-shadow: 0px 20px 80px #1b1867;
+}
+
+/*** style content within the code module ***/
+
+.cta-info{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto !important;
+    max-width: 1080px;
+    padding: 50px;
+}
+.cta-info h3 {
+    color: #fff;
+    font-size: 35px;
+    line-height: 1.3em;
+}

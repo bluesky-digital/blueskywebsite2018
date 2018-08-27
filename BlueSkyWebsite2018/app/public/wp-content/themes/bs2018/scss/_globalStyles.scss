@@ -1,6 +1,5 @@
 
 
-
 // colors
 $white: #fff;
 $black: #000;
@@ -16,10 +15,25 @@ $secondaryPurple: #8a479b;
 $secondaryCyan: #33e1ff;
 
 //this takes care of any horizontal scroll issues caused by the myriad pseudo classes I'm putting in here.  :)
+body {-webkit-hyphens: none;
+-moz-hyphens: none;
+hyphens: none;     word-break: keep-all;
+}
 #page-container {overflow:hidden;}
 
-// Hyperlinks
+
+// Hyperlinks & buttons
 p a {color:#2ea3f2; text-decoration:underline;}
+
+a.et_pb_button.et_pb_promo_button, a.et_pb_button.et_pb_button_0.et_pb_bg_layout_dark {
+  border-radius: 5px;
+  padding: 2vh !important;
+  font-family: $bodyFont;
+    &:hover {
+    padding: 2vh !important;
+  }
+
+}
 // midnight.js
 .midnightHeader.default {
   background: none;
@@ -456,8 +470,12 @@ border-bottom: 2px solid #4abeff;
   height: 13vh;
 }
 
-
-
+.et_pb_team_member_description {
+  position:absolute;
+  bottom: 20px;
+  left:20px;
+}
+.et_pb_member_position, .et_pb_module_header p {color:$white;}
 .casestudy_subtext { text-transform:uppercase;
 font-family:$bodyFont;}
 
@@ -473,7 +491,20 @@ font-family:$headerFont;}
 & .et_pb_testimonial_author, .et_pb_testimonial_meta {font-family:$bodyFont; font-size:$base-font-size !important;}
 }
 
+.testimonial-on-white{
+padding: 10vh 0 20vh;
+& p {font-size:$base-font-size * 2.2 !important;
+font-family:$headerFont;}
+& .et_pb_testimonial_author, .et_pb_testimonial_meta {font-family:$bodyFont; font-size:$base-font-size !important;}
+}
 
+
+//number counter styles
+.et_pb_module.et_pb_number_counter {
+&h3.title {
+  font-size:10px;
+}
+}
 .closerWhite  {
   padding:20vh 0 20vh 0 !important;
   & h2 {
@@ -516,6 +547,73 @@ font-family:$headerFont;}
   & a {font-size:1.875em !important;padding:2vh 2vw; color:#fff;}
 }
 
+
+//Creating 5-column layout
+
+.five-columns .et_pb_module {
+    float: left;
+    width: 20%!important;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 980px) {
+
+.five-columns .et_pb_module {
+    width: 33%!important;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+
+.five-columns .et_pb_module {
+    width: 50%!important;
+    }
+}
+
+//Creating 6-column layout
+
+.six-columns .et_pb_module {
+    float: left;
+    width: 16.6%!important;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 980px) {
+  $bodyFontsize: 18px;
+  // h6 starts at $base-font-size
+  // headings grow from h6 to h1 by $heading-scale
+  $base-font-size: 16px;
+  $heading-scale: 2; // amount of px headings grow from h6 to h1
+
+  @for $i from 1 through 1 {
+    h#{$i} {
+      font-size: $base-font-size + $heading-scale * (18- $i) !important;
+      font-family: $headerFont;
+      line-height:$headerLineheight;
+      padding-bottom:$headerBottompadding;
+    }
+  }
+
+
+.six-columns .et_pb_module {
+    width: 33%!important;
+    }
+
+    #blog-hero {
+      & h1:before {
+        display:none;
+      }
+}
+}
+
+@media only screen and (max-width: 479px) {
+
+.six-columns .et_pb_module {
+    width: 50%!important;
+    }
+}
+
+//Creating 6-column layout
 
 //media queries
 

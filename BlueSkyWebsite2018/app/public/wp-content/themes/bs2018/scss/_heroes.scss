@@ -100,3 +100,55 @@ z-index: 0;
 }
 & p {font-size:1.75em; margin-bottom:0;}
 }
+
+#blog-hero {
+  padding-top: 5vh important;
+  height:100vh;
+  overflow:hidden;
+  & h1:before {
+      content: "MUST READ";
+      background-color: #33e1ff;
+      padding: 1vh 1vw;
+      height: 4vh;
+      width: 26vh;
+      position: absolute;
+      left: -157px;
+      bottom: 22vh;
+      font-family: $bodyFont;
+      background-repeat: repeat-x;
+      overflow: display;
+      z-index: 110;
+      /* opacity: .06; */
+      transform: rotate(-90deg);
+      font-size: .35em;
+      text-align: center;
+  }
+
+  .et_pb_slide.et_pb_media_alignment_center.et_pb_bg_layout_dark.et-pb-active-slide {
+    height:100vh;
+    padding-top:25vh;
+  }
+h1.et_pb_slide_title {
+    background-color: rgba(108,108,108,0.9);
+    padding: 3vh 3vw;
+  }
+.et_pb_slide_description {padding:0;}
+a.et_pb_button.et_pb_more_button {
+    display: none !important;
+}
+& h1:after {
+  content: "";
+background-image: url('/wp-content/uploads/2018/08/dotsWhite.svg');
+background-size: auto 125px;
+height: 130px;
+width: 177em;
+position: absolute;
+left: -13em;
+bottom: -1.1em;
+background-repeat: repeat-x;
+overflow: hidden;
+z-index:0;
+opacity:.06;
+}
+& p {font-size:1.75em; margin-bottom:0;}
+}

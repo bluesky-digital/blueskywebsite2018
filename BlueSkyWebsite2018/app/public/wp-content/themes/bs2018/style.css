@@ -97,6 +97,10 @@ p, div#et-top-navigation, ul, ol {
 .supplemental-callout-subhead {
   text-transform: uppercase; }
 
+.eeo-statement {
+  line-height: 1.4;
+  font-size: 12px; }
+
 #home-hero {
   padding-top: 25% !important;
   height: 100vh;
@@ -201,12 +205,73 @@ p, div#et-top-navigation, ul, ol {
     font-size: 1.75em;
     margin-bottom: 0; }
 
+#blog-hero {
+  padding-top: 5vh important;
+  height: 100vh;
+  overflow: hidden; }
+  #blog-hero h1:before {
+    content: "MUST READ";
+    background-color: #33e1ff;
+    padding: 1vh 1vw;
+    height: 4vh;
+    width: 26vh;
+    position: absolute;
+    left: -157px;
+    bottom: 22vh;
+    font-family: "Barlow", sans-serif;
+    background-repeat: repeat-x;
+    overflow: display;
+    z-index: 110;
+    /* opacity: .06; */
+    transform: rotate(-90deg);
+    font-size: .35em;
+    text-align: center; }
+  #blog-hero .et_pb_slide.et_pb_media_alignment_center.et_pb_bg_layout_dark.et-pb-active-slide {
+    height: 100vh;
+    padding-top: 25vh; }
+  #blog-hero h1.et_pb_slide_title {
+    background-color: rgba(108, 108, 108, 0.9);
+    padding: 3vh 3vw; }
+  #blog-hero .et_pb_slide_description {
+    padding: 0; }
+  #blog-hero a.et_pb_button.et_pb_more_button {
+    display: none !important; }
+  #blog-hero h1:after {
+    content: "";
+    background-image: url("/wp-content/uploads/2018/08/dotsWhite.svg");
+    background-size: auto 125px;
+    height: 130px;
+    width: 177em;
+    position: absolute;
+    left: -13em;
+    bottom: -1.1em;
+    background-repeat: repeat-x;
+    overflow: hidden;
+    z-index: 0;
+    opacity: .06; }
+  #blog-hero p {
+    font-size: 1.75em;
+    margin-bottom: 0; }
+
+body {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  word-break: keep-all; }
+
 #page-container {
   overflow: hidden; }
 
 p a {
   color: #2ea3f2;
   text-decoration: underline; }
+
+a.et_pb_button.et_pb_promo_button, a.et_pb_button.et_pb_button_0.et_pb_bg_layout_dark {
+  border-radius: 5px;
+  padding: 2vh !important;
+  font-family: "Barlow", sans-serif; }
+  a.et_pb_button.et_pb_promo_button:hover, a.et_pb_button.et_pb_button_0.et_pb_bg_layout_dark:hover {
+    padding: 2vh !important; }
 
 .midnightHeader.default {
   background: none;
@@ -600,6 +665,14 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
   padding: 4.5vh 2px 3vh 2px;
   height: 13vh; }
 
+.et_pb_team_member_description {
+  position: absolute;
+  bottom: 20px;
+  left: 20px; }
+
+.et_pb_member_position, .et_pb_module_header p {
+  color: #fff; }
+
 .casestudy_subtext {
   text-transform: uppercase;
   font-family: "Barlow", sans-serif; }
@@ -615,6 +688,18 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
   .testimonial-on-dark .et_pb_testimonial_author, .testimonial-on-dark .et_pb_testimonial_meta {
     font-family: "Barlow", sans-serif;
     font-size: 16px !important; }
+
+.testimonial-on-white {
+  padding: 10vh 0 20vh; }
+  .testimonial-on-white p {
+    font-size: 35.2px !important;
+    font-family: "Playfair Display", serif; }
+  .testimonial-on-white .et_pb_testimonial_author, .testimonial-on-white .et_pb_testimonial_meta {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px !important; }
+
+.et_pb_module.et_pb_number_counterh3.title {
+  font-size: 10px; }
 
 .closerWhite {
   padding: 20vh 0 20vh 0 !important; }
@@ -662,6 +747,39 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
     font-size: 1.875em !important;
     padding: 2vh 2vw;
     color: #fff; }
+
+.five-columns .et_pb_module {
+  float: left;
+  width: 20% !important;
+  padding: 20px; }
+
+@media only screen and (max-width: 980px) {
+  .five-columns .et_pb_module {
+    width: 33% !important; } }
+
+@media only screen and (max-width: 479px) {
+  .five-columns .et_pb_module {
+    width: 50% !important; } }
+
+.six-columns .et_pb_module {
+  float: left;
+  width: 16.6% !important;
+  padding: 20px; }
+
+@media only screen and (max-width: 980px) {
+  h1 {
+    font-size: 50px !important;
+    font-family: "Playfair Display", serif;
+    line-height: 1;
+    padding-bottom: 0.15em; }
+  .six-columns .et_pb_module {
+    width: 33% !important; }
+  #blog-hero h1:before {
+    display: none; } }
+
+@media only screen and (max-width: 479px) {
+  .six-columns .et_pb_module {
+    width: 50% !important; } }
 
 @media (max-width: 980px) {
   /* END MATRIX STYLING */
@@ -900,3 +1018,76 @@ input[type=submit] {
   margin: 1.2vw 0 1.2vw 0;
   padding-bottom: 0;
   height: auto; }
+
+/* Animated Call To Action at bottom of page */
+/*** style CTA section and row when waypoint is not triggered ***/
+#cta-section {
+  padding: 0 80px;
+  transition: all .8s ease;
+  -moz-transition: all .8s ease;
+  -webkit-transition: all .8s ease; }
+
+#cta-row {
+  margin: 00px auto 0 auto;
+  padding: 80px 0;
+  max-width: 100%;
+  background-color: #6c17dc;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 50px #939fa9;
+  transition: all .8s ease;
+  -moz-transition: all .8s ease;
+  -webkit-transition: all .8s ease; }
+
+/*** Style CTA section and row once waypoint toggles animate-cta class ***/
+#cta-section.animate-cta {
+  padding: 0vh 0 6vh 0;
+  overflow: hidden; }
+
+.animate-cta #cta-row {
+  margin: 0 auto 0 auto;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #4843d2;
+  width: inherit; }
+
+/*** style button ***/
+#sign {
+  display: inline-block;
+  width: 246px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #f92c8b;
+  padding: 20px 40px;
+  margin-top: 30px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  transition: all .8s ease;
+  -webkit-transition: all .8s ease;
+  -webkit-transition: all .8s ease;
+  box-shadow: 0px 5px 20px #231f92;
+  -moz-box-shadow: 0px 5px 20px #231f92;
+  -webkit-box-shadow: 0px 10px 50px #231f92; }
+
+#sign:hover {
+  background-color: #2cc2e6;
+  box-shadow: 0px 20px 80px #1b1867;
+  -moz-box-shadow: 0px 20px 80px #1b1867;
+  -webkit-box-shadow: 0px 20px 80px #1b1867; }
+
+/*** style content within the code module ***/
+.cta-info {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto !important;
+  max-width: 1080px;
+  padding: 50px; }
+
+.cta-info h3 {
+  color: #fff;
+  font-size: 35px;
+  line-height: 1.3em; }
